@@ -226,6 +226,7 @@ inline int __builtin_clzll(unsigned long long input_num) {
 
 #define IS_BIG_ENDIAN (*(uint16_t *)"\0\xff" < 0x100)
 
+#if defined(_WIN32) && CROARING_REGULAR_VISUAL_STUDIO && (defined(_M_ARM) || defined(_M_ARM64))
 static inline int hammingbackup(uint64_t x) {
   uint64_t c1 = UINT64_C(0x5555555555555555);
   uint64_t c2 = UINT64_C(0x3333333333333333);
@@ -235,22 +236,18 @@ static inline int hammingbackup(uint64_t x) {
   x *= UINT64_C(0x0101010101010101);
   return x >> 56;
 }
+#endif
 
 static inline int hamming(uint64_t x) {
-#if defined(_WIN64) && defined(CROARING_REGULAR_VISUAL_STUDIO) && CROARING_REGULAR_VISUAL_STUDIO
-#ifdef _M_ARM64
-  return hammingbackup(x);
-  // (int) _CountOneBits64(x); is unavailable
-#else  // _M_ARM64
-  return (int) __popcnt64(x);
-#endif // _M_ARM64
-#elif defined(_WIN32) && defined(CROARING_REGULAR_VISUAL_STUDIO) && CROARING_REGULAR_VISUAL_STUDIO
-#ifdef _M_ARM
-  return hammingbackup(x);
-  // _CountOneBits is unavailable
-#else // _M_ARM
-    return (int) __popcnt(( unsigned int)x) + (int)  __popcnt(( unsigned int)(x>>32));
-#endif // _M_ARM
+#if defined(_WIN32) && CROARING_REGULAR_VISUAL_STUDIO
+#if defined(_M_ARM) || defined(_M_ARM64)
+    return hammingbackup(x);
+    // (int) _CountOneBits64(x); is unavailable
+#elif defined(_WIN64)
+    return (int) __popcnt64(x);
+#else
+    return (int) __popcnt((unsigned int)x) + (int)  __popcnt((unsigned int)(x>>32));
+#endif
 #else
     return __builtin_popcountll(x);
 #endif
