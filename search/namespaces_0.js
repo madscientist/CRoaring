@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['roaring_110',['roaring',['../dc/db7/namespaceroaring.html',1,'']]]
+  ['roaring_325',['roaring',['../dc/db7/namespaceroaring.html',1,'']]]
 ];
