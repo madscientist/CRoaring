@@ -1,15 +1,21 @@
 var searchData=
 [
-  ['cardinality_12',['cardinality',['../d4/dcf/classroaring_1_1Roaring64Map.html#a1c768a3502c441531f76ae24ec28ab11',1,'roaring::Roaring64Map::cardinality()'],['../d1/d51/classroaring_1_1Roaring.html#a5421644f170815768cad891ac1fd053b',1,'roaring::Roaring::cardinality()']]],
-  ['clear_13',['clear',['../d4/dcf/classroaring_1_1Roaring64Map.html#a75cb282058feaf656985a69cdd855cc5',1,'roaring::Roaring64Map']]],
-  ['const_5fbidirectional_5fiterator_14',['const_bidirectional_iterator',['../d4/dcf/classroaring_1_1Roaring64Map.html#abe657fbb5cc92b5c2ad16160b96adb39',1,'roaring::Roaring64Map']]],
-  ['const_5fiterator_15',['const_iterator',['../d1/d51/classroaring_1_1Roaring.html#af9e3142f45a5d032320e3e1171ad44f5',1,'roaring::Roaring::const_iterator()'],['../d4/dcf/classroaring_1_1Roaring64Map.html#a44aeaae51642c6bfed539a84d0a46bb3',1,'roaring::Roaring64Map::const_iterator()']]],
-  ['container_16',['container',['../db/d0d/structroaring__bulk__context__s.html#a9959594ea0333621537eb14c8089b06c',1,'roaring_bulk_context_s::container()'],['../da/d27/structroaring__uint32__iterator__s.html#a43c864a1f20b9d55ad38f8b404446650',1,'roaring_uint32_iterator_s::container()']]],
-  ['container_5findex_17',['container_index',['../da/d27/structroaring__uint32__iterator__s.html#a0e3db4bb59369a55459bd1adeaa7f554',1,'roaring_uint32_iterator_s']]],
-  ['container_5fit_18',['container_it',['../da/d27/structroaring__uint32__iterator__s.html#ada5b5422d9ea7874b52802adae40f25c',1,'roaring_uint32_iterator_s']]],
-  ['contains_19',['contains',['../d1/d51/classroaring_1_1Roaring.html#aa2e9462ac7abb7a4cc2e783c54a9e87d',1,'roaring::Roaring::contains()'],['../d4/dcf/classroaring_1_1Roaring64Map.html#a180f81212a14f38946ae96abc20cbb6a',1,'roaring::Roaring64Map::contains(uint32_t x) const'],['../d4/dcf/classroaring_1_1Roaring64Map.html#a246a9152c39913956ba74d7e1e06d2d5',1,'roaring::Roaring64Map::contains(uint64_t x) const']]],
-  ['containsbulk_20',['containsBulk',['../d1/d51/classroaring_1_1Roaring.html#a7a2c3ad496b362cca32cecbee40a2444',1,'roaring::Roaring']]],
-  ['containsrange_21',['containsRange',['../d1/d51/classroaring_1_1Roaring.html#a57363257f4583165b9ba2bfc20424eef',1,'roaring::Roaring']]],
-  ['croaring_22',['CRoaring',['../index.html',1,'']]],
-  ['current_5fvalue_23',['current_value',['../da/d27/structroaring__uint32__iterator__s.html#ab6729438a346958f8075ef0c72a9ba47',1,'roaring_uint32_iterator_s']]]
+  ['a_20cmake_20dependency_20with_20fetchcontent_0',['Using as a CMake dependency with FetchContent',['../index.html#autotoc_md8',1,'']]],
+  ['a_20cpm_20dependency_1',['Using Roaring as a CPM dependency',['../index.html#autotoc_md7',1,'']]],
+  ['about_20roaring_2',['References about Roaring',['../index.html#autotoc_md55',1,'']]],
+  ['adding_20and_20removing_20values_3',['Adding and Removing Values',['../index.html#autotoc_md13',1,'']]],
+  ['aggregate_20bitmaps_4',['How to best aggregate bitmaps?',['../index.html#autotoc_md42',1,'']]],
+  ['allocators_5',['Custom memory allocators',['../index.html#autotoc_md30',1,'']]],
+  ['amalgamating_6',['Amalgamating',['../index.html#autotoc_md9',1,'']]],
+  ['and_2064_20bit_7',['Common Methods (32-bit and 64-bit)',['../index.html#autotoc_md22',1,'']]],
+  ['and_20cardinality_8',['Queries and Cardinality',['../index.html#autotoc_md14',1,'']]],
+  ['and_20deserialization_9',['and deserialization',['../index.html#autotoc_md17',1,'Serialization and Deserialization'],['../index.html#autotoc_md25',1,'Serialization and Deserialization']]],
+  ['and_20destruction_10',['Creation and Destruction',['../index.html#autotoc_md12',1,'']]],
+  ['and_20macos_11',['Usage (Using &lt;tt&gt;vcpkg&lt;/tt&gt; on Windows, Linux and macOS)',['../index.html#autotoc_md38',1,'']]],
+  ['and_20macos_20visual_20studio_20or_20openharmony_20users_20should_20see_20below_12',['Building with cmake (Linux and macOS, Visual Studio or OpenHarmony users should see below)',['../index.html#autotoc_md35',1,'']]],
+  ['and_20removing_20values_13',['Adding and Removing Values',['../index.html#autotoc_md13',1,'']]],
+  ['api_14',['API',['../index.html#autotoc_md10',1,'']]],
+  ['api_20functions_15',['api functions',['../index.html#autotoc_md20',1,'C++ API functions'],['../index.html#autotoc_md11',1,'Main API functions']]],
+  ['as_20a_20cmake_20dependency_20with_20fetchcontent_16',['Using as a CMake dependency with FetchContent',['../index.html#autotoc_md8',1,'']]],
+  ['as_20a_20cpm_20dependency_17',['Using Roaring as a CPM dependency',['../index.html#autotoc_md7',1,'']]]
 ];

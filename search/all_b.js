@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['leaf_50',['leaf',['../df/dce/structroaring64__bulk__context__s.html#ac1c1e04fc8ac939eabee19b5ab0c992f',1,'roaring64_bulk_context_s']]]
+  ['javascript_20node_20js_0',['JavaScript (Node.js)',['../index.html#autotoc_md45',1,'']]],
+  ['js_1',['JavaScript (Node.js)',['../index.html#autotoc_md45',1,'']]]
 ];

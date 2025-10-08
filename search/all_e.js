@@ -1,7 +1,12 @@
 var searchData=
 [
-  ['parent_73',['parent',['../da/d27/structroaring__uint32__iterator__s.html#a0a1ffd1bb31a9a4e6d3a263f354fea3a',1,'roaring_uint32_iterator_s']]],
-  ['pointer_74',['pointer',['../da/d37/classroaring_1_1RoaringSetBitForwardIterator.html#a88ae3f9d1d9283e061302b3bbecc350c',1,'roaring::RoaringSetBitForwardIterator::pointer()'],['../d3/d48/classroaring_1_1Roaring64MapSetBitBiDirectionalIterator.html#a3eabe74ef801052a998773237d5a427e',1,'roaring::Roaring64MapSetBitBiDirectionalIterator::pointer()']]],
-  ['portabledeserializefrozen_75',['portableDeserializeFrozen',['../d1/d51/classroaring_1_1Roaring.html#aa395a60f8fbe0987bd2f714171762c6b',1,'roaring::Roaring::portableDeserializeFrozen()'],['../d4/dcf/classroaring_1_1Roaring64Map.html#acf8aecabd7e1542c63b76861cb103691',1,'roaring::Roaring64Map::portableDeserializeFrozen()']]],
-  ['printf_76',['printf',['../d1/d51/classroaring_1_1Roaring.html#ad956e9ff3afc9ad367340457a20fb54c',1,'roaring::Roaring::printf()'],['../d4/dcf/classroaring_1_1Roaring64Map.html#af8a3ff65c058b528e0c1b7d08b4cacf4',1,'roaring::Roaring64Map::printf()']]]
+  ['macos_0',['Usage (Using &lt;tt&gt;vcpkg&lt;/tt&gt; on Windows, Linux and macOS)',['../index.html#autotoc_md38',1,'']]],
+  ['macos_20visual_20studio_20or_20openharmony_20users_20should_20see_20below_1',['Building with cmake (Linux and macOS, Visual Studio or OpenHarmony users should see below)',['../index.html#autotoc_md35',1,'']]],
+  ['mailing_20list_20discussion_20group_2',['Mailing list/discussion group',['../index.html#autotoc_md53',1,'']]],
+  ['main_20api_20functions_3',['Main API functions',['../index.html#autotoc_md11',1,'']]],
+  ['main_20classes_4',['Main Classes',['../index.html#autotoc_md21',1,'']]],
+  ['memory_20allocators_5',['Custom memory allocators',['../index.html#autotoc_md30',1,'']]],
+  ['methods_2032_20bit_20and_2064_20bit_6',['Common Methods (32-bit and 64-bit)',['../index.html#autotoc_md22',1,'']]],
+  ['microbenchmarks_7',['Running microbenchmarks',['../index.html#autotoc_md29',1,'']]],
+  ['module_8',['Redis Module',['../index.html#autotoc_md51',1,'']]]
 ];
